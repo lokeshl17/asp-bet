@@ -78,6 +78,7 @@
     <Content Include="Agent\Login.aspx" />
     <Content Include="Client\AllGamesList.aspx" />
     <Content Include="Client\Change_Password.aspx" />
+    <Content Include="Client\Change_password2.aspx" />
     <Content Include="Client\css\Home\animate.css" />
     <Content Include="Client\css\Home\arrows.css" />
     <Content Include="Client\css\Home\camera.css" />
@@ -86,6 +87,8 @@
     <Content Include="Client\css\Home\owl-carousel.css" />
     <Content Include="Client\css\Home\style.css" />
     <Content Include="Client\css\Home\subscribe-form.css" />
+    <Content Include="Client\css\login2\bootstrap.min.css" />
+    <Content Include="Client\css\login2\material-kit.css" />
     <Content Include="Client\css\login\clndr.css" />
     <Content Include="Client\css\login\style.css" />
     <Content Include="Client\Home.aspx" />
@@ -108,6 +111,8 @@
     <Content Include="Client\images\InplayImg\Logout.png" />
     <Content Include="Client\images\InplayImg\portfolio_img.jpg" />
     <Content Include="Client\images\InplayImg\Team.jpg" />
+    <Content Include="Client\images\loginimg\ball.jpg" />
+    <Content Include="Client\images\loginimg\cri.jpg" />
     <Content Include="Client\images\MainMenuImg\AllGame.png" />
     <Content Include="Client\images\MainMenuImg\games.png" />
     <Content Include="Client\images\MainMenuImg\HowTo.png" />
@@ -135,7 +140,14 @@
     <Content Include="Client\js\Homejs\superfish.js" />
     <Content Include="Client\js\Homejs\tmstickup.js" />
     <Content Include="Client\js\Homejs\wow.js" />
+    <Content Include="Client\js\loginjs\bootstrap-datepicker.js" />
+    <Content Include="Client\js\loginjs\bootstrap.min.js" />
+    <Content Include="Client\js\loginjs\jquery.min.js" />
+    <Content Include="Client\js\loginjs\material-kit.js" />
+    <Content Include="Client\js\loginjs\material.min.js" />
+    <Content Include="Client\js\loginjs\nouislider.min.js" />
     <Content Include="Client\Login.aspx" />
+    <Content Include="Client\login2.aspx" />
     <Content Include="Client\MainMenu.aspx" />
     <Content Include="Client\Terms_Condition.aspx" />
     <Content Include="packages.config" />
@@ -184,6 +196,13 @@
     <Compile Include="Client\Change_Password.aspx.designer.cs">
       <DependentUpon>Change_Password.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Client\Change_password2.aspx.cs">
+      <DependentUpon>Change_password2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Change_password2.aspx.designer.cs">
+      <DependentUpon>Change_password2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Client\inplay.aspx.cs">
       <DependentUpon>inplay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -197,6 +216,13 @@
     </Compile>
     <Compile Include="Client\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\login2.aspx.cs">
+      <DependentUpon>login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\login2.aspx.designer.cs">
+      <DependentUpon>login2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Client\MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>

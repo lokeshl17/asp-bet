@@ -606,7 +606,7 @@ ul.sidebar-menu span.icon-box  {
     font-size: 12px;
     color: #fff;
     text-align: center;
-    /*background: url("../img/top-bg.jpg");*/
+    /*background: url("../images/Login/top-bg.jpg");*/
 }
 
 #footer .go-top {
@@ -729,7 +729,7 @@ form legend {
 .breadcrumb > li {
     height: 33px;
     line-height: 33px;
-    background: url("../img/bread-crumb-bg.jpg") repeat-x;
+    background: url("../images/Login/bread-crumb-bg.jpg") repeat-x;
     float: left;
     margin-bottom: 25px;
     padding: 0  0 0 8px;
@@ -747,7 +747,7 @@ form legend {
     width: 33px;
     height: 33px;
     line-height: 33px;
-    background: url("../img/bread-crumb-divider.jpg") no-repeat;
+    background: url("../images/Login/bread-crumb-divider.jpg") no-repeat;
 }
 .breadcrumb > li > .divider-last {
     display: inline-block;
@@ -755,7 +755,7 @@ form legend {
     width: 19px;
     height: 33px;
     line-height: 33px;
-    background: url("../img/bread-crumb-last.jpg") no-repeat;
+    background: url("../images/Login/bread-crumb-last.jpg") no-repeat;
 }
 .breadcrumb .tooltip {
     text-shadow:none !important;
@@ -1660,7 +1660,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .login-header {
-    background: url("../img/top-bg.jpg") repeat-x;
+    background: url("../images/Login/top-bg.jpg") repeat-x;
     border-width: 0;
     height: 60px;
     text-align: center;
@@ -1678,7 +1678,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .login-btn {
-    background: url("../img/login-btn.jpg");
+    background: url("../images/Login/login-btn.jpg");
     border: none;
     box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
     -moz-box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
@@ -3116,7 +3116,7 @@ ul.faq-list li a:hover, ul.faq-list li a.active{
 /*lock*/
 
 #lock-body {
-    background: url("../img/bg-grey.jpg") !important;
+    background: url("../images/Login/bg-grey.jpg") !important;
 }
 
 .lock-header {

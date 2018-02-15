@@ -17,6 +17,7 @@
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
+    margin-left:20px;
     cursor: pointer;
     font-size: 14px;
     -webkit-user-select: none;
