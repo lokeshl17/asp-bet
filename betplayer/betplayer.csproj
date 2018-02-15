@@ -77,6 +77,7 @@
     <Content Include="Agent\images\Login\top-bg.jpg" />
     <Content Include="Agent\Login.aspx" />
     <Content Include="Client\AllGamesList.aspx" />
+    <Content Include="Client\Change_Password.aspx" />
     <Content Include="Client\css\Home\animate.css" />
     <Content Include="Client\css\Home\arrows.css" />
     <Content Include="Client\css\Home\camera.css" />
@@ -175,6 +176,13 @@
     </Compile>
     <Compile Include="Client\AllGamesList.aspx.designer.cs">
       <DependentUpon>AllGamesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Change_Password.aspx.cs">
+      <DependentUpon>Change_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Change_Password.aspx.designer.cs">
+      <DependentUpon>Change_Password.aspx</DependentUpon>
     </Compile>
     <Compile Include="Client\inplay.aspx.cs">
       <DependentUpon>inplay.aspx</DependentUpon>
